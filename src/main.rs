@@ -46,7 +46,6 @@ fn gen(char: usize, abc: bool, num: bool, sym: bool) {
     ];
     let mut password = Vec::new();
     let mut finalpass = String::new();
-    let chartype = vec![&numrand, &charrand, &symbols];
     let mut pick: &Vec<&str>;
     match settings {
         GenSettings {
