@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rand = { version = "0.8.4", features = ["std_rng", "nightly"] }
+rand = { version = "0.8.5", features = ["std_rng", "nightly"] }
 
 [profile.release]
 panic = "abort"

@@ -38,5 +38,4 @@ fn main() {
     // Generate the password
     let password: Vec<&str> = charlist.iter().copied().choose_multiple(&mut thread_rng(), length);
     println!("{}", password.join(""));
-
 }
